@@ -1,3 +1,5 @@
+package Operator_and_Expressions;
+
 // Calculate area of triangle using two formulas: 1/2 x base x height and Heron's Formula.
 // Take sides from user.
 
@@ -7,7 +9,7 @@ public class Calculate_Area {
     public static void main(String arg[]) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("AREA USING BASE HEIGHT FORMULA -");
+        System.out.println("\nAREA USING BASE HEIGHT FORMULA");
         System.out.print("Enter base and height respectively: ");
         float base = sc.nextFloat();
         float height = sc.nextFloat();
