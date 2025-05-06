@@ -6,7 +6,7 @@ package String;
 
 import java.util.Scanner;
 
-public class Regular_Expresssion_1 {
+public class Regular_Expression_1 {
     public static void main(String arg[]) {
         Scanner sc = new Scanner(System.in);
 
