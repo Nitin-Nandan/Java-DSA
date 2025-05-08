@@ -11,9 +11,10 @@ public class Menu {
         System.out.print("Enter two numbers: ");
         float num1 = sc.nextFloat();
         float num2 = sc.nextFloat();
-        String ipBuffer = sc.nextLine();
+        sc.nextLine(); // Clear input buffer.
         System.out.print("Enter menu option in words: ");
         String option = sc.nextLine();
+        option = option.toUpperCase();
 
         switch (option) {
             case "ADD":
