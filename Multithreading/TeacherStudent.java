@@ -1,4 +1,4 @@
-//package Multithreading;
+package Multithreading;
 
 class WhiteBoard {
     String text;
