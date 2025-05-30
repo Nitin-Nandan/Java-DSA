@@ -62,5 +62,11 @@ public class ListDemo {
         while(lit2.hasNext()) {
             System.out.print(lit2.next() + "  ");
         }
+
+        System.out.println("\n\n");
+
+        al1.forEach(num -> {
+            System.out.print(num + "  ");
+        });
     }
 }
